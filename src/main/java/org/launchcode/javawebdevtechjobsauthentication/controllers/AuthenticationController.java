@@ -127,5 +127,4 @@ public class AuthenticationController {
         request.getSession().invalidate();
         return "redirect:/login";
     }
-
 }
